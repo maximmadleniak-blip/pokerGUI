@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{629B8044-F972-CE02-5BF5-57C2CBA0EB36}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>pokerGUI</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="board.h" />
+    <ClInclude Include="card-color-tostring.h" />
+    <ClInclude Include="card-color.h" />
+    <ClInclude Include="card-value-tostring.h" />
+    <ClInclude Include="card-value.h" />
+    <ClInclude Include="card.h" />
+    <ClInclude Include="deck.h" />
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="node-list.h" />
+    <ClInclude Include="node.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="player_slot.h" />
+    <ClInclude Include="table.h" />
+    <ClInclude Include="test-function.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="board.cpp" />
+    <ClCompile Include="card-color-tostring.cpp" />
+    <ClCompile Include="card-color.cpp" />
+    <ClCompile Include="card-value-tostring.cpp" />
+    <ClCompile Include="card-value.cpp" />
+    <ClCompile Include="card.cpp" />
+    <ClCompile Include="deck.cpp" />
+    <ClCompile Include="MainForm.cpp" />
+    <ClCompile Include="node-list.cpp" />
+    <ClCompile Include="node.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="player_slot.cpp" />
+    <ClCompile Include="table.cpp" />
+    <ClCompile Include="test-function.cpp" />
+    <ClCompile Include="testcpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="cardgfx\XC.jpg" />
+    <Image Include="cardgfx\XD.jpg" />
+    <Image Include="cardgfx\XH.jpg" />
+    <Image Include="cardgfx\XS.jpg" />
+    <Image Include="cardgfx\2C.jpg" />
+    <Image Include="cardgfx\2D.jpg" />
+    <Image Include="cardgfx\2H.jpg" />
+    <Image Include="cardgfx\2S.jpg" />
+    <Image Include="cardgfx\3C.jpg" />
+    <Image Include="cardgfx\3D.jpg" />
+    <Image Include="cardgfx\3H.jpg" />
+    <Image Include="cardgfx\3S.jpg" />
+    <Image Include="cardgfx\4C.jpg" />
+    <Image Include="cardgfx\4D.jpg" />
+    <Image Include="cardgfx\4H.jpg" />
+    <Image Include="cardgfx\4S.jpg" />
+    <Image Include="cardgfx\5C.jpg" />
+    <Image Include="cardgfx\5D.jpg" />
+    <Image Include="cardgfx\5H.jpg" />
+    <Image Include="cardgfx\5S.jpg" />
+    <Image Include="cardgfx\6C.jpg" />
+    <Image Include="cardgfx\6D.jpg" />
+    <Image Include="cardgfx\6H.jpg" />
+    <Image Include="cardgfx\6S.jpg" />
+    <Image Include="cardgfx\7C.jpg" />
+    <Image Include="cardgfx\7D.jpg" />
+    <Image Include="cardgfx\7H.jpg" />
+    <Image Include="cardgfx\7S.jpg" />
+    <Image Include="cardgfx\8C.jpg" />
+    <Image Include="cardgfx\8D.jpg" />
+    <Image Include="cardgfx\8H.jpg" />
+    <Image Include="cardgfx\8S.jpg" />
+    <Image Include="cardgfx\9C.jpg" />
+    <Image Include="cardgfx\9D.jpg" />
+    <Image Include="cardgfx\9H.jpg" />
+    <Image Include="cardgfx\9S.jpg" />
+    <Image Include="cardgfx\AC.jpg" />
+    <Image Include="cardgfx\AD.jpg" />
+    <Image Include="cardgfx\AH.jpg" />
+    <Image Include="cardgfx\AS.jpg" />
+    <Image Include="cardgfx\JC.jpg" />
+    <Image Include="cardgfx\JD.jpg" />
+    <Image Include="cardgfx\JH.jpg" />
+    <Image Include="cardgfx\JS.jpg" />
+    <Image Include="cardgfx\KC.jpg" />
+    <Image Include="cardgfx\KD.jpg" />
+    <Image Include="cardgfx\KH.jpg" />
+    <Image Include="cardgfx\KS.jpg" />
+    <Image Include="cardgfx\QC.jpg" />
+    <Image Include="cardgfx\QD.jpg" />
+    <Image Include="cardgfx\QH.jpg" />
+    <Image Include="cardgfx\QS.jpg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

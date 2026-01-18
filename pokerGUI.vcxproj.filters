@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="card-color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="card-color-tostring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="card-value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="card-value-tostring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="node-list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player_slot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test-function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="card-color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="card-color-tostring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="card-value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="card-value-tostring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="node-list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player_slot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testcpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test-function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="cardgfx\2C.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\2D.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\2H.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\2S.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\3C.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\3D.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\3H.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\3S.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\4C.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\4D.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\4H.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\4S.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\5C.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\5D.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\5H.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\5S.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\6C.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\6D.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\6H.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\6S.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\7C.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\7D.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\7H.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\7S.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\8C.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\8D.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\8H.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\8S.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\9C.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\9D.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\9H.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\9S.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\XC.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\XD.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\XH.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\XS.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\AC.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\AD.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\AH.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\AS.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\JC.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\JD.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\JH.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\JS.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\KC.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\KD.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\KH.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\KS.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\QC.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\QD.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\QH.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cardgfx\QS.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
